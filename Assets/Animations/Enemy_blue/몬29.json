@@ -1,0 +1,36 @@
+{ "skeleton": { "images": "~/Desktop/Monster/Monstey29/images1" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "right_leg", "bone": "root", "attachment": "right_leg" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "left_leg", "bone": "root", "attachment": "left_leg" },
+	{ "name": "right_horn", "bone": "root", "attachment": "right_horn" },
+	{ "name": "head_b", "bone": "root", "attachment": "head_b" },
+	{ "name": "left_horn", "bone": "root", "attachment": "left_horn" }
+],
+"skins": {
+	"default": {
+		"right_leg": {
+			"right_leg": { "x": 223.5, "y": -630, "width": 89, "height": 136 }
+		},
+		"body": {
+			"body": { "x": 263.5, "y": -444, "width": 271, "height": 364 }
+		},
+		"left_leg": {
+			"left_leg": { "x": 334, "y": -634.5, "width": 82, "height": 127 }
+		},
+		"right_horn": {
+			"right_horn": { "x": 158.5, "y": -234, "width": 191, "height": 278 }
+		},
+		"head_b": {
+			"head_b": { "x": 264, "y": -268.5, "width": 336, "height": 163 }
+		},
+		"left_horn": {
+			"left_horn": { "x": 333.5, "y": -220.5, "width": 161, "height": 279 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
